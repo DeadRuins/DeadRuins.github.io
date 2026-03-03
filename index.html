@@ -5,6 +5,7 @@
 	<title>DeadRuins Home</title>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.png">
 </head>
 
 <style>
@@ -14,8 +15,31 @@
             background-repeat: no-repeat;
             background-position: center;
             text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
             color: #e6e6fa;
         }
+
+    ol.sns-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5em;
+    justify-items: center;
+    padding: 0;
+    max-width: 600px;   /* limit width */
+    margin: 2em auto;   /* centers horizontally */
+}
+
+ol.sns-grid li {
+    text-align: center;
+}
+
+ol.sns-grid img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
     div.container {
         text-align: center;
@@ -32,14 +56,56 @@
     height ="300"
     >
 
-    <p>The solo-developer of Crystalled Bullets</p>
+    <p>The solo-developer of Crystalled Bullets<br>Japanese, Male(He/Him)</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/591q0gxVVVI?si=yOMgjXyfeR6X38Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <p>Formerly known for WitheredPoppiMk-4.<br>developed Brutal Wolfenstein: UBER HERO Edition under that name.</p>
+    <p>For Crystalled Bullets, working on Directing, Writing, Game Design, Art Design, Artist, Programmer, etc.</p>
+    <p>Formerly known as WitheredPoppiMk-4.<br>developed Brutal Wolfenstein: UBER HERO Edition under that name.</p>
+
+    <ol class="sns-grid">
+        <li>
+            <a href="https://discord.gg/4vjPw3KX7Q">
+                <img src="discord-logo.webp" alt="Discord Server">
+            </a>
+            <div>Discord</div>
+        </li>
+        <li>
+            <a href="https://www.indiedb.com/games/the-crystalled-bullets">
+                <img src="green.webp" alt="IndieDB">
+            </a>
+            <div>IndieDB</div>
+        </li>
+        <li>
+            <a href="https://deadruins.itch.io/the-crystalled-bullets">
+                <img src="itch-logo.webp" alt="itch.io">
+            </a>
+            <div>itch.io</div>
+        </li>
+        <li>
+            <a href="https://x.com/DeadRuinsN100">
+                <img src="white.png" alt="Twitter">
+            </a>
+            <div>Twitter/X</div>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/channel/UCLVVX4be05aHrxTQ1S0WIWw">
+                <img src="youtube-logo.webp" alt="YouTube">
+            </a>
+            <div>YouTube</div>
+        </li>
+        <li>
+            <a href="https://bsky.app/profile/druinsno4.bsky.social">
+                <img src="bluesky-logo.webp" alt="Bluesky">
+            </a>
+            <div>Bluesky</div>
+        </li>
+    </ol>
+
+
 
     <div class="footer">
         This webpage is still work in progress!
-        <a href="https://github.com/DeadRuins/DeadRuins.github.io/edit/main/README.md">
+        <a href="https://github.com/DeadRuins/DeadRuins.github.io/edit/main/index.html">
             Feel free to improve this page via GitHub
         </a>.
     </div>
